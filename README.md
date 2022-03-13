@@ -1,4 +1,4 @@
-#Desafio de Projeto sobre Git/github
+# Desafio de Projeto sobre Git/github
 
 Repositório criado para desafio de projeto
 
