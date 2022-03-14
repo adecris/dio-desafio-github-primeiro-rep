@@ -22,7 +22,7 @@ Agora se dermos git status no git bash, veremos que o arquivo foi acescentado, p
 
 Enviar o arquivo remotamente no repositorio:
 No git bash digitar o comando git push origin main (nome da branch que queremos enviar)
-Aparti desse momento a pasta e arquivos local ja esta disponivel remotamente.
+Apartir desse momento a pasta e arquivos local ja esta disponivel remotamente.
 
 
 
