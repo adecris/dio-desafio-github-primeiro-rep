@@ -1,2 +1,29 @@
 Link para downloado do Git:
 https://git-scm.com/downloads
+
+Instruções:
+Criar um novo repositório no GitHub, dar um nome, escrever uma descrição, se desejar, selecionar a opção para criar Readme, deixar publico.
+
+Acessar o repósitorio localmente:
+Com o git já instalado no computador, e pastaque receberá os arquivos do repositório já criada, clicar com direito do mouse e selecionar git bash. Ao abrir o git bash, voltar ao github e copiar o https do repósitorio, e lá em git bash digitar o comando git clone e colar o endereço do link do repositório e dar enter, os arquivos serão copiados na pasta.
+Se for a primeira vez que estiver usando o git bash na maquina, será solicitado entrar com as credencias do GitHub. 
+Pronto o repositório está criado no PC.
+Criar uma nova pasta na pasta do repositório local, eum arquivo dentro e no git bash digitar o comando status. Mostrará que existe uma pasta nova. agora vamos adiciona-la remotamente.
+
+Enviar a pasta/ arquivo para o gitHub remotamente:
+no git bash digitar o comando git add . ou git add -A
+
+Ao dar novamente um git status, mostrara a pasta em cor verde, que significa que foi adicionada, porem ainda nao esta disponivel remotamente.
+
+Acrescentar o arquivo :
+Digitar em git bash o comando: git commit -m "acrescentar aqui um comentario sobre o arquivo que esta sendo enviado"  , dar enter.
+
+Agora se dermos git status no git bash, veremos que o arquivo foi acescentado, porem nao disponibilizado remotamente, para isso precisar dar um push
+
+Enviar o arquivo remotamente no repositorio:
+No git bash digitar o comando git push origin main (nome da branch que queremos enviar)
+Aparti desse momento a pasta e arquivos local ja esta disponivel remotamente.
+
+
+
+
